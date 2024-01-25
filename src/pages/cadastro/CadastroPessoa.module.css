@@ -1,0 +1,32 @@
+.content {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ec6825;
+  margin: 1rem 0;
+}
+
+.peopleData,
+.dadosResidencia,
+.contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+}
+
+.divider {
+  border: 1px solid #ec6825;
+  margin: 2rem 0;
+}
+
+@media (max-width: 640px) {
+  .peopleData,
+  .dadosResidencia,
+  .contact {
+    grid-template-columns: 1fr;
+  }
+}

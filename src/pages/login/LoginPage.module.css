@@ -1,0 +1,57 @@
+.box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-height: 100vh;
+  gap: 2rem;
+}
+
+.box::before {
+  content: '';
+  display: block;
+  background: url('../../assets/logo.jpg') no-repeat center center;
+  background-size: cover;
+}
+
+.right {
+  max-width: 30rem;
+  padding: 1rem;
+  margin-top: 20vh;
+}
+
+.cadastrar {
+  margin: 3rem 0;
+}
+
+.text {
+  font-size: 1rem;
+  color: #000;
+}
+
+.link {
+  color: rgba(236, 105, 39, 0.6);
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.link:hover {
+  color: #ec6825;
+}
+
+@media (max-width: 640px) {
+  .box {
+    grid-template-columns: 1fr;
+  }
+
+  .box::before {
+    display: none;
+  }
+
+  .right {
+    max-width: 100%;
+    margin-top: 10rem;
+  }
+  .link {
+    text-align: center;
+  }
+}

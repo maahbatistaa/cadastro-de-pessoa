@@ -1,0 +1,12 @@
+.s_hero_not{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 33vh;
+    margin-bottom: 32vh;
+}
+
+.not{
+    color: rgba(236, 105, 39, 0.6);
+}

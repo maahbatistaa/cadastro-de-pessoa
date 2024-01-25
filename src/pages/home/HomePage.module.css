@@ -1,0 +1,53 @@
+.tabelaContainer{
+  overflow-x: auto;
+}
+
+.tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+
+.tabelaHeader{
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.tabelaItem {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.buttonEdit, .buttonDelete {
+  background-color: #ccc;
+  border: none;
+  border-radius: 0.25rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 0.5rem;
+  transition: 0.3s;
+}
+
+.buttonDelete {
+  background-color: #ff0000;
+  margin-left: 0.5rem;
+}
+
+@media (max-width: 640px) {
+  .tabela {
+    width: 100%;
+  }
+
+  .tabelaHeader, .tabelaItem {
+    font-size: 0.9rem;
+  }
+
+  .buttonEdit, .buttonDelete {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+}
