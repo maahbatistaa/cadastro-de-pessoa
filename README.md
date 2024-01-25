@@ -1,24 +1,58 @@
-# Cadastro de Pessoa
-Projeto para o cadastro de pessoa fisica. Nele você pode se registrar e fazer login, cadastrar varias pessoas fisicas e verificar a lista de pessoas que cadastrou.
 
-### Rodar localmente
-- Clone o repositorio na sua máquina
-  ```
-  git clone
-  ```
+# Cadastro de Pessoas
 
-- No terminal colocar o seguinte comando
-  ```
+Site para cadastrar pessoas físicas. Nele você pode fazer seu registro, logar e cadastrar pessoas fisicas, além de cadastrar mais de uma pessoas, você pode também deletar pessoas. 
+
+
+
+
+## Funcionalidades
+
+- Versão desktop e mobile
+- Cadastrar-se 
+- Login
+- Cadastrar e excluir pessoas fisicas
+
+
+## Rodando localmente
+
+Clone o projeto
+
+```bash
+  git clone https://github.com/maahbatistaa/cadastro-de-pessoa
+```
+
+Entre no diretório do projeto
+
+```bash
+  cd cadastro-de-pessoa
+```
+
+Instale as dependências
+
+```bash
   npm install
-  ```
+```
 
-- Após instalar as dependencias, abra dois terminais no projeto, um rodaremos nosso front-end e outro nosso back-end
-- No primeiro terminal cole o seguinte comando para rodar o projeto web
-  ```
+Inicie o servidor
+
+```bash
   npm run dev
-  ```
-- No segundo, rodaremos nossa API
-  ```
+```
+
+Inicie a API 
+```bash
   npm run server
-  ```
+```
+
+
+## Stack utilizada
+
+**Front-end:** React, React-Hook-Form, Yup, Axios, Json-Server, @hookform/resolvers
+
+
+
+## Autor
+
+- [@maahbatistaa](@hookform/resolvers)
 
