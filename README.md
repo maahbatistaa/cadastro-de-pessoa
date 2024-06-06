@@ -3,6 +3,8 @@
 
 Site para cadastrar pessoas físicas. Nele você pode fazer seu registro, logar e cadastrar pessoas fisicas, além de cadastrar mais de uma pessoas, você pode também deletar pessoas. 
 
+<img src="https://media.licdn.com/dms/image/D4D22AQHowMqKVc8Bow/feedshare-shrink_2048_1536/0/1717636025392?e=1720656000&v=beta&t=olnSh6VCWcY_2QYj96hFowl4wBs82YiKMl2tdM_RKqI" />
+
 
 
 
